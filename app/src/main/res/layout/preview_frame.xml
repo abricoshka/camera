@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.p001ui.PreviewFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/preview_border"
+        android:background="@drawable/ic_snapshot_border"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.android.camera.p001ui.FaceView
+        android:id="@+id/face_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.android.camera.p001ui.ObjectView
+        android:id="@+id/object_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.android.camera.p001ui.MultiZoneAfView
+        android:id="@+id/multi_focus_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/focus_indicator"/>
+    <com.android.camera.p001ui.ZoomControlBar
+        android:id="@+id/zoom_control"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="217px"
+        android:layout_marginTop="@dimen/mzoom_set_topMargin"/>
+</com.android.camera.p001ui.PreviewFrameLayout>

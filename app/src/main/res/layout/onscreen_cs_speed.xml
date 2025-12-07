@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/on_screen_cs_speed"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mediatek.camera.p004ui.UIRotateLayout style="@style/onScreenInfoCSSpeedLayout">
+        <LinearLayout
+            android:gravity="bottom"
+            style="@style/OnScreenInfoGroup">
+            <TextView
+                android:id="@+id/cs_info_view"
+                style="@style/OnScreenCSInfoText"/>
+        </LinearLayout>
+    </com.mediatek.camera.p004ui.UIRotateLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="21dp"
+    android:width="21dp"
+    android:viewportWidth="55"
+    android:viewportHeight="55">
+    <path
+        android:fillColor="#22ffffff"
+        android:pathData="M27.5,27.5m-27.5,0a27.5,27.5 0,1 1,55 0a27.5,27.5 0,1 1,-55 0"
+        android:strokeAlpha="0.84"
+        android:fillAlpha="0.84"/>
+    <path
+        android:name="anim_path"
+        android:pathData="M13.4,20.4l14.1,14.2l14.1,-14.2"
+        android:strokeColor="#ffffe14d"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_on_margin_right">109dp</dimen>
+    <dimen name="screen_on_margin_left">70dp</dimen>
+    <dimen name="setting_sub_container_width">73dp</dimen>
+    <dimen name="setting_grid_horizontalSpacing">1dp</dimen>
+    <dimen name="setting_grid_verticalSpacing">72dp</dimen>
+    <dimen name="setting_grid_paddingTop">10dp</dimen>
+    <dimen name="setting_grid_paddingBottom">13dp</dimen>
+    <dimen name="setting_grid_columnWidth">1dp</dimen>
+</resources>

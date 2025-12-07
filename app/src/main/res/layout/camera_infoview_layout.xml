@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/tv_info_view"
+    style="@style/OnScreenInfoView">
+    <com.android.camera.p001ui.InfoTextView
+        android:id="@+id/zoom_first"
+        style="@style/OnScreenInfoViewItem"/>
+    <com.android.camera.p001ui.InfoTextView
+        android:id="@+id/zoom_second"
+        style="@style/OnScreenInfoViewItem"/>
+    <com.android.camera.p001ui.InfoTextView
+        android:id="@+id/zoom_third"
+        style="@style/OnScreenInfoViewItem"/>
+    <com.android.camera.p001ui.InfoTextView
+        android:id="@+id/zoom_fourth"
+        style="@style/OnScreenInfoViewItem"/>
+</LinearLayout>

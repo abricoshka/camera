@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.p002v2.p003ui.InLineSettingSwitch xmlns:android="http://schemas.android.com/apk/res/android" style="@style/CameraSettingRow">
+    <TextView
+        android:id="@+id/title"
+        style="@style/CameraSettingItemTitle"/>
+    <Switch
+        android:textColor="@color/setting_item_text_color_normal_text"
+        android:id="@+id/setting_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"/>
+</com.android.camera.p002v2.p003ui.InLineSettingSwitch>

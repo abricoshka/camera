@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#33000000"
+    android:splitMotionEvents="false"
+    style="@style/ShutterGroup">
+    <com.android.camera.p001ui.RotateImageView
+        android:id="@+id/btn_cancel"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:src="@drawable/btn_cancel"
+        android:layout_weight="1"
+        android:contentDescription="@android:string/cancel"
+        style="@style/ShutterButton"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_done"
+        android:background="@null"
+        android:layout_width="0dp"
+        android:layout_marginTop="-12dp"
+        android:text="@string/use_photo"
+        android:layout_weight="1"
+        style="@style/ShutterButton"/>
+</LinearLayout>

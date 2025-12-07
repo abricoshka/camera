@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CameraSettingItemTitle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/tw_setting_item_text_color_normal</item>
+        <item name="android:ellipsize">4</item>
+        <item name="android:gravity">0x800013</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SettingItemSubTitle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">@color/tw_setting_item_text_color_normal</item>
+        <item name="android:ellipsize">4</item>
+        <item name="android:gravity">0x800013</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">@dimen/setting_row_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="CameraSettingItemText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/tw_setting_item_text_color_normal</item>
+        <item name="android:gravity">0x800015</item>
+        <item name="android:layout_gravity">0x10</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="SettingItemImage" parent="">
+        <item name="android:gravity">0x11</item>
+    </style>
+    <style name="SettingItemRestore" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/tw_setting_item_text_color_normal</item>
+        <item name="android:ellipsize">4</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_gravity">0x10</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="CameraSettingRow" parent="">
+        <item name="android:gravity">0x10</item>
+        <item name="android:orientation">0</item>
+        <item name="android:background">@drawable/setting_picker</item>
+        <item name="android:paddingLeft">@dimen/camera_setting_item_list_margin</item>
+        <item name="android:paddingRight">@dimen/camera_setting_item_list_margin</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">@dimen/tw_setting_row_height</item>
+    </style>
+    <style name="SettingGridRow" parent="">
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="SettingItemList" parent="">
+        <item name="android:scrollbarStyle">33554432</item>
+        <item name="android:layout_gravity">0x11</item>
+        <item name="android:orientation">1</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="SubSettingContainer" parent="">
+        <item name="android:orientation">1</item>
+        <item name="android:background">@drawable/bg_list_background_1</item>
+        <item name="android:paddingTop">@dimen/setting_container_padding_top</item>
+        <item name="android:paddingBottom">@dimen/setting_container_padding_bottom</item>
+        <item name="android:layout_width">@dimen/setting_sub_container_width</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="SettingContainer" parent="">
+        <item name="android:orientation">1</item>
+        <item name="android:background">@drawable/tw_settings_background</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="SettingContainer2" parent="">
+        <item name="android:orientation">1</item>
+        <item name="android:background">@drawable/tw_subsettings_background_material</item>
+        <item name="android:paddingTop">@dimen/setting_container2_padding_top</item>
+        <item name="android:paddingBottom">@dimen/setting_container2_padding_bottom</item>
+        <item name="android:layout_width">@dimen/setting_container2_width</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SettingNewContainer2" parent="">
+        <item name="android:orientation">1</item>
+        <item name="android:background">@drawable/tw_subsettings_background_material</item>
+        <item name="android:paddingTop">@dimen/setting_container2_padding_top</item>
+        <item name="android:paddingBottom">@dimen/setting_container2_padding_bottom</item>
+        <item name="android:layout_width">@dimen/setting_new_container2_width</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SettingTabTitle" parent="">
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="ShutterButton" parent="">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/shutter_size</item>
+        <item name="android:layout_height">@dimen/shutter_size</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="OnScreenIndicator" parent="">
+        <item name="android:padding">1dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:visibility">2</item>
+        <item name="android:layout_width">@dimen/indicator_size</item>
+        <item name="android:layout_height">@dimen/indicator_size</item>
+    </style>
+    <style name="onScreenInfoCSSpeedLayout" parent="@style/ScreenOnCSMargin">
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="OnScreenPicker" parent="">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">2</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="OnScreenPickerFixed" parent="">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">0</item>
+        <item name="android:layout_width">@dimen/picker_button_size</item>
+        <item name="android:layout_height">@dimen/picker_button_size</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="OnScreenInfoLayout" parent="@style/ScreenOnMargin">
+        <item name="android:visibility">2</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="ReviewThumbnail" parent="">
+        <item name="android:layout_width">@dimen/thumbnail_image_size</item>
+        <item name="android:layout_height">@dimen/thumbnail_image_size</item>
+    </style>
+    <style name="PanoPreviewLayout" parent="">
+        <item name="android:visibility">2</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="OnScreenInfoGroup" parent="">
+        <item name="android:layout_gravity">0x30</item>
+        <item name="android:orientation">1</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="SettingVirtualItem" parent="">
+        <item name="android:gravity">0x1</item>
+        <item name="android:orientation">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="SettingVirtualEffectImage" parent="">
+        <item name="android:gravity">0x1</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginTop">@dimen/setting_image_margin_top</item>
+    </style>
+    <style name="SettingVirtualTitle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/tw_setting_item_text_color_normal_text</item>
+        <item name="android:ellipsize">4</item>
+        <item name="android:gravity">0x1</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SettingVirtualRadio" parent="">
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="ModePickerBackground" parent="">
+        <item name="android:background">@drawable/bg_scroll_background</item>
+        <item name="android:visibility">2</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="ModePickerScroll" parent="">
+        <item name="android:scrollbars">0x0</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="ModePickerGroup" parent="">
+        <item name="android:gravity">0x1</item>
+        <item name="android:orientation">1</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="ModePickerIcon" parent="">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">@dimen/mode_picker_height</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="RecordingText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_gravity">0x11</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">@dimen/recording_timer_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="RecordingSizeText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="RecordingSizeProgress" parent="">
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="OnScreenInfoText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_gravity">0x1</item>
+        <item name="android:background">@drawable/bg_indicator_background</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="DialogSavingText" parent="@android:style/TextAppearance.Large">
+    </style>
+    <style name="RemainingText" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:gravity">0x10</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:drawableStart">@drawable/ic_camera_remain_pictures</item>
+    </style>
+    <style name="ItemListTitle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/setting_item_text_color_highlight</item>
+        <item name="android:ellipsize">4</item>
+        <item name="android:gravity">0x800013</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">@dimen/setting_row_title_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="OnScreenCSInfoText" parent="">
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:layout_gravity">0x1</item>
+        <item name="android:background">@drawable/bg_cs_speed</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="dialog_fullscreen" parent="">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="textShadowTitle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/ics_blue_foreground</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="bottom_button" parent="">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">0x1</item>
+        <item name="android:layout_gravity">0x800055</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="ThemeCamera" parent="@android:style/Theme.Material.Settings">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:panelBackground">@android:drawable/list_selector_background_longpress</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ThemeCameraSecb" parent="@android:style/Theme.Material.Settings">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ThemeCameraSec" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:panelBackground">@android:drawable/list_selector_background_longpress</item>
+        <item name="android:bool.config_cecPowerControlModeTvAndAudioSystem_default">@android:style/Theme.DeviceDefault.Light.Dialog.FixedSize</item>
+    </style>
+    <style name="OnScreenHintTextAppearance" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">0x0</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5c5cff</item>
+    </style>
+    <style name="OnScreenHintTextAppearance.Small" parent="@style/OnScreenHintTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">0x0</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+    <style name="Animation_OnScreenHint" parent="">
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+    </style>
+    <style name="PopupTitleSeparator" parent="">
+        <item name="android:background">@color/popup_title_color</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+    <style name="PanoCustomDialogText" parent="">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+    <style name="EffectSettingGrid" parent="">
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginLeft">@dimen/camera_setting_item_list_margin</item>
+        <item name="android:layout_marginRight">@dimen/camera_setting_item_list_margin</item>
+        <item name="android:horizontalSpacing">3dp</item>
+        <item name="android:verticalSpacing">3dp</item>
+        <item name="android:numColumns">3</item>
+        <item name="android:choiceMode">1</item>
+    </style>
+    <style name="EffectSettingItem" parent="">
+        <item name="android:orientation">1</item>
+        <item name="android:background">@drawable/setting_picker</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">9dp</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+    </style>
+    <style name="EffectSettingItemTitle" parent="">
+        <item name="android:textSize">@dimen/camera_effect_setting_item_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="EffectSettingTypeTitle" parent="">
+        <item name="android:textSize">@dimen/camera_effect_setting_type_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">0x13</item>
+        <item name="android:paddingLeft">@dimen/camera_effect_setting_type_text_left_padding</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:minHeight">@dimen/camera_effect_setting_type_text_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+    <style name="EffectTypeSeparator" parent="">
+        <item name="android:background">#2c2c2c</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style>
+    <style name="EffectTitleSeparator" parent="">
+        <item name="android:background">@android:drawable/divider_horizontal_dark</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+    <style name="ReviewControlGroup" parent="">
+        <item name="android:gravity">0x11</item>
+        <item name="android:orientation">0</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="styleName" parent="">
+        <item name="android:gravity">0x50</item>
+        <item name="android:layout_marginRight">80dp</item>
+    </style>
+    <style name="twSwitchCameraThumbnail" parent="">
+        <item name="android:layout_width">@dimen/tw_thumbnail_switchcamera_image_size</item>
+        <item name="android:layout_height">@dimen/tw_thumbnail_switchcamera_image_size</item>
+    </style>
+    <style name="twReviewThumbnail" parent="">
+        <item name="android:layout_width">@dimen/tw_thumbnail_image_size</item>
+        <item name="android:layout_height">@dimen/tw_thumbnail_image_size</item>
+    </style>
+    <style name="twShutterGroup" parent="@style/ScreenMargin">
+        <item name="android:gravity">0x51</item>
+        <item name="android:layout_gravity">0x51</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">@dimen/tw_shutter_width</item>
+        <item name="android:layout_height">@dimen/tw_shutter_height</item>
+        <item name="android:layout_marginBottom">@dimen/tw_shutter_margin_bottom</item>
+    </style>
+    <style name="twShutterButton" parent="">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/tw_shutter_width</item>
+        <item name="android:layout_height">@dimen/tw_shutter_height</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="twShutterButtonPhoto" parent="">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/tw_shutter_width</item>
+        <item name="android:layout_height">@dimen/tw_shutter_height</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="ShutterGroupPhoto" parent="">
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_gravity">0x50</item>
+        <item name="android:orientation">0</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginTop">25.5dp</item>
+    </style>
+    <style name="twSettingIndicator" parent="">
+        <item name="android:layout_width">@dimen/tw_indicator_height</item>
+        <item name="android:layout_height">@dimen/tw_indicator_width</item>
+        <item name="android:layout_marginRight">@dimen/tw_indicator_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/tw_indicator_margin_bottom</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="twReviewThumbnailGroup" parent="">
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginLeft">@dimen/tw_thumbnail_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/tw_thumbnail_margin_bottom</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="twOnScreenPickerGroup" parent="">
+        <item name="android:gravity">0x1b</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:visibility">@null</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">@dimen/tw_picker_margin_top</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="twModePickerLayout" parent="">
+        <item name="android:layout_width">@dimen/tw_mode_picker_width</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginBottom">@dimen/tw_ModePicker_margin_bottom</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="twModePickerScroll" parent="">
+        <item name="android:scrollbars">@null</item>
+        <item name="android:layout_width">@dimen/tw_mode_picker_width</item>
+        <item name="android:layout_height">-1</item>
+        <item name="android:layout_marginBottom">@dimen/tw_ModePicker_text_height</item>
+    </style>
+    <style name="twModePickerGroup" parent="">
+        <item name="android:gravity">0x1</item>
+        <item name="android:orientation">1</item>
+        <item name="android:layout_width">@dimen/tw_mode_picker_width</item>
+        <item name="android:layout_height">-1</item>
+    </style>
+    <style name="twModePickerIcon" parent="">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:layout_width">@dimen/tw_mode_picker_width</item>
+        <item name="android:layout_height">@dimen/mode_picker_height</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:scaleType">5</item>
+    </style>
+    <style name="twOnScreenPickerFixed" parent="">
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">@null</item>
+        <item name="android:layout_width">@dimen/tw_picker_button_width</item>
+        <item name="android:layout_height">@dimen/tw_picker_button_height</item>
+        <item name="android:scaleType">5</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="sec_wheel_mode" parent="">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">0x1</item>
+        <item name="android:textColor">@color/ios_wheel_item_color_unsel</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="OnScreenInfoView" parent="">
+        <item name="android:layout_gravity">0x1</item>
+        <item name="android:layout_width">@dimen/info_view_width</item>
+        <item name="android:layout_height">@dimen/info_view_height</item>
+        <item name="android:layout_marginTop">@dimen/OnScreenInfoText_top</item>
+    </style>
+    <style name="OnScreenInfoViewItem" parent="">
+        <item name="android:gravity">0x11</item>
+        <item name="android:layout_gravity">0x11</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">-1</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

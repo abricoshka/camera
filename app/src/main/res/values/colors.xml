@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="popup_title_color">#ff33b5e5</color>
+    <color name="popup_background">#e5282828</color>
+    <color name="setting_item_text_color_highlight">#ff0099cc</color>
+    <color name="setting_item_text_color_normal">#ffffffff</color>
+    <color name="setting_item_text_color_normal_text">#ffb7b7b7</color>
+    <color name="seletct_image_background">#ff333333</color>
+    <color name="text_view_font">#ffffffff</color>
+    <color name="text_view_background">#88000000</color>
+    <color name="lomo_effect_background">#ff1a1a1a</color>
+    <color name="selected_border">#ff31b6e7</color>
+    <color name="unselected_border">#a01a1a1a</color>
+    <color name="pressed_border">#ffff0000</color>
+    <color name="lomo_effect_item_pressed">#60666666</color>
+    <color name="ics_blue_foreground">#33b5e5</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="transparent_background">#0000</color>
+    <color name="camera_gray_background">#1b1b1b</color>
+    <color name="tw_setting_item_text_color_normal">#ff000000</color>
+    <color name="tw_setting_item_text_color_normal_text">#ff0099cc</color>
+    <color name="tw_setting_item_text_color_summary">#ff0099cc</color>
+    <color name="ios_wheel_item_color_sel">#ffffff00</color>
+    <color name="ios_wheel_item_color_unsel">#ffffffff</color>
+    <color name="ios_video_top_bottom_bg_color">#33000000</color>
+    <color name="color_selected">#ffffe14d</color>
+    <color name="rulerten_color">#bbffffff</color>
+    <color name="ruler_color">#66ffffff</color>
+</resources>

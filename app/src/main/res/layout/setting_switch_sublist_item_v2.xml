@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:splitMotionEvents="false"
+    style="@style/CameraSettingRow">
+    <TextView
+        android:id="@+id/title"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:layout_alignWithParentIfMissing="true"
+        style="@style/SettingItemSubTitle"/>
+    <ImageView
+        android:id="@+id/image"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/setting_item_icon_width"
+        android:layout_height="@dimen/setting_item_icon_width"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

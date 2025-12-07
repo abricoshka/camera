@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.camera.p001ui.RotateImageView
+        android:id="@+id/lomo_effect_indicator"
+        android:background="@null"
+        android:padding="10dp"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tw_effect_picker_margin_top"
+        android:layout_marginRight="42px"
+        android:src="@drawable/filter_btn"
+        android:scaleType="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/accessibility_second_level_indicators"/>
+</RelativeLayout>

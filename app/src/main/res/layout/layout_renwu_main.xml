@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.camera.p001ui.RenWuBackGroundView
+        android:id="@+id/backgroundview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="12sp"
+            android:textColor="#aa000000"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textview"
+            android:background="#fff8ce46"
+            android:paddingLeft="3dp"
+            android:paddingTop="2dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/str_renxiang_ziran"/>
+        <com.android.camera.p001ui.RenWuBottomView
+            android:layout_gravity="bottom"
+            android:id="@+id/bottomview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/moderenxiang_height"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.p001ui.SettingSublistLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res/com.mediatek.camera"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.android.camera.p001ui.MaxLinearLayout
+        android:id="@+id/container"
+        camera:maxHeight="@dimen/setting_new_container2_height_max"
+        style="@style/SettingNewContainer2">
+        <TextView
+            android:id="@+id/ItemListTitle"
+            style="@style/ItemListTitle"/>
+        <LinearLayout
+            android:background="@drawable/sub_setting_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ListView
+            android:id="@+id/settingList"
+            style="@style/SettingItemList"/>
+    </com.android.camera.p001ui.MaxLinearLayout>
+</com.android.camera.p001ui.SettingSublistLayout>

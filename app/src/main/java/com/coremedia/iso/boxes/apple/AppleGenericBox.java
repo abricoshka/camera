@@ -1,0 +1,10 @@
+package com.coremedia.iso.boxes.apple;
+
+import com.googlecode.mp4parser.AbstractContainerBox;
+
+/* loaded from: classes.dex */
+public final class AppleGenericBox extends AbstractContainerBox {
+    public AppleGenericBox() {
+        super("----");
+    }
+}

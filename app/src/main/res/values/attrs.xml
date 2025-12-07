@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title" format="string">
+    </attr>
+    <attr name="key" format="string">
+    </attr>
+    <attr name="defaultValue" format="reference|string">
+    </attr>
+    <attr name="entryValues" format="reference">
+    </attr>
+    <attr name="entries" format="reference">
+    </attr>
+    <attr name="icons" format="reference">
+    </attr>
+    <attr name="modes" format="reference">
+    </attr>
+    <attr name="singleIcon" format="reference">
+    </attr>
+    <attr name="largeIcons" format="reference">
+    </attr>
+    <attr name="images" format="reference">
+    </attr>
+    <attr name="maxHeight" format="dimension">
+    </attr>
+    <attr name="maxWidth" format="dimension">
+    </attr>
+    <attr name="textSize" format="dimension">
+    </attr>
+    <attr name="textColor" format="color">
+    </attr>
+    <attr name="text" format="string">
+    </attr>
+    <attr name="mMaxScaleColor" format="color">
+    </attr>
+    <attr name="mMidScaleColor" format="color">
+    </attr>
+    <attr name="mMinScaleColor" format="color">
+    </attr>
+    <attr name="mBottomLineColor" format="color">
+    </attr>
+    <attr name="mMaxScaleWidth" format="dimension">
+    </attr>
+    <attr name="mMidScaleWidth" format="dimension">
+    </attr>
+    <attr name="mMinScaleWidth" format="dimension">
+    </attr>
+    <attr name="mBottomLineWidth" format="dimension">
+    </attr>
+    <attr name="mMaxScaleHeightRatio" format="float">
+    </attr>
+    <attr name="mMidScaleHeightRatio" format="float">
+    </attr>
+    <attr name="mMinScaleHeightRatio" format="float">
+    </attr>
+    <attr name="isShowScaleValue" format="boolean">
+    </attr>
+    <attr name="isScaleGradient" format="boolean">
+    </attr>
+    <attr name="mScaleValueColor" format="color">
+    </attr>
+    <attr name="mScaleValueSize" format="dimension">
+    </attr>
+    <attr name="mScaleSpace" format="dimension">
+    </attr>
+    <attr name="mCurrentValue" format="integer">
+    </attr>
+    <attr name="mMaxValue" format="integer">
+    </attr>
+    <attr name="mMinValue" format="integer">
+    </attr>
+    <attr name="mScaleBase" format="integer">
+    </attr>
+    <attr name="mMiddleImg" format="reference">
+    </attr>
+    <attr name="mMiddleImgSelect" format="reference">
+    </attr>
+    <attr name="rulerOrientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="rulerHighlightColor" format="reference|color">
+    </attr>
+    <attr name="rulerColor" format="reference|color">
+    </attr>
+    <attr name="rulertenColor" format="reference|color">
+    </attr>
+    <attr name="rulerTextColor" format="reference|color">
+    </attr>
+    <attr name="rulerIntervalDistance" format="dimension">
+    </attr>
+    <attr name="rulerLineWidth" format="dimension">
+    </attr>
+    <attr name="rulerLineHeight" format="dimension">
+    </attr>
+    <attr name="rulerTextSize" format="dimension">
+    </attr>
+    <attr name="rulerTextBaseLineDistance" format="dimension">
+    </attr>
+    <attr name="rulerIsDivideByTen" format="boolean">
+    </attr>
+    <attr name="rulerDivideByTenHeight" format="dimension">
+    </attr>
+    <attr name="rulerDivideByTenWidth" format="dimension">
+    </attr>
+    <attr name="rulerIsDivideByFive" format="boolean">
+    </attr>
+    <attr name="rulerDivideByFiveHeight" format="dimension">
+    </attr>
+    <attr name="rulerDivideByFiveWidth" format="dimension">
+    </attr>
+    <attr name="rulerIntervalValue" format="float">
+    </attr>
+    <attr name="rulerMaxValue" format="float">
+    </attr>
+    <attr name="rulerMinValue" format="float">
+    </attr>
+    <attr name="rulerShowText" format="boolean">
+    </attr>
+    <attr name="rulerRetainLength" format="integer">
+    </attr>
+</resources>

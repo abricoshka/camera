@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/twReviewThumbnailGroup">
+    <com.android.camera.p001ui.RotateImageView
+        android:id="@+id/thumbnail"
+        android:background="@drawable/tw_camera_main_btn_ic_gallery_frame"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_below="@+id/preview_thumb"
+        android:contentDescription="@string/accessibility_review_thumbnail"
+        style="@style/twReviewThumbnail"/>
+    <com.android.camera.p001ui.RotateImageView
+        android:id="@+id/preview_thumb"
+        android:visibility="invisible"
+        style="@style/twReviewThumbnail"/>
+</RelativeLayout>

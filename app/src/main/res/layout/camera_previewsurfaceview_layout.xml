@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/previewsurfaceview_layout"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.android.camera.p002v2.p003ui.FixedAspectSurfaceView
+        android:layout_gravity="center"
+        android:id="@+id/previewsurfaceview"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>
